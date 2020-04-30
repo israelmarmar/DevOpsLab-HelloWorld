@@ -20,5 +20,5 @@ script:
 deploy:
   provider: heroku
   api-key: 
-    secure: 7941319d-23d6-477f-a6e3-d0bd1d1c014d
+    secure: $HEROKU_API_KEY
   app: devops-isrmm
